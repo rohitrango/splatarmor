@@ -1,15 +1,14 @@
-# Beyond mAP Project page
+# SplatArmor Project page
 
-This is the repository that contains source code for the [Beyond mAP website](https://jenaroh.it/beyond-map).
+This is the repository that contains source code for the [SplatArmor website](https://jenaroh.it/splatarmor).
 
 If you find our findings useful for your work please cite:
 ```
-@article{jena2023beyond,
-  author    = {Jena, Rohit and Zhornyak, Lukas and Doiphode, Nehal and Chaudhari, Pratik and Buch, Vivek and Gee, James and Shi, Jianbo},
-  title     = {Beyond mAP: Towards better evaluation of instance segmentation},
-  journal   = {CVPR},
-  year      = {2023},
-}
+@article{jena2023splatarmor,
+        title={SplatArmor: Articulated Gaussian splatting for animatable humans from monocular RGB videos},
+        author={Jena, Rohit and Iyer, Ganesh Subramanian and Choudhary, Siddharth and Smith, Brandon and Chaudhari, Pratik and Gee, James},
+        journal={arXiv preprint arXiv:2311.10812},
+        year={2023}
 ```
 
 Website adapted from [Nerfies](https://nerfies.github.io/)
