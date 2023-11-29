@@ -2,6 +2,8 @@
 
 This is the repository that contains source code for the [SplatArmor website](https://jenaroh.it/splatarmor).
 
+Code and demo: Coming soon. Stay tuned.
+
 If you find our findings useful for your work please cite:
 ```
 @article{jena2023splatarmor,

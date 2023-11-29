@@ -134,21 +134,7 @@
   </div>
 </section>
 
-<section class="section">
-  <div class="container is-max-desktop">
-    <!-- Abstract. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Demo</h2>
-        <div class="content is-centered has-text-justified">
-            Coming soon.
-        </div>
-      </div>
-    </div>
-    <!--/ Abstract. -->
-  </div>
-</section>
-
+<!-- Abstract -->
 <section class="section">
   <div class="container is-max-desktop">
     <!-- Abstract. -->
@@ -166,10 +152,105 @@
   </div>
 </section>
 
+<!-- Novel view synthesis -->
+<section class="hero is-light is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title has-text-centered">Novel view synthesis</h2>
+      <p>Rendering held-out test frames from the ZJU MoCap dataset (with test-time optimization of SMPL parameters).</p>
+      <div id="novelview-carousel" class="carousel results-carousel">
+        <div class="item"><img style="height:100%" src="static/images/zju-novelview/1.png" alt="image"></div>
+        <div class="item"><img style="height:100%" src="static/images/zju-novelview/2.png" alt="image"></div>
+        <div class="item"><img style="height:100%" src="static/images/zju-novelview/3.png" alt="image"></div>
+        <div class="item"><img style="height:100%" src="static/images/zju-novelview/4.png" alt="image"></div>
+        <div class="item"><img style="height:100%" src="static/images/zju-novelview/5.png" alt="image"></div>
+        <div class="item"><img style="height:100%" src="static/images/zju-novelview/6.png" alt="image"></div>
+        <div class="item"><img style="height:100%" src="static/images/zju-novelview/7.png" alt="image"></div>
+        <div class="item"><img style="height:100%" src="static/images/zju-novelview/8.png" alt="image"></div>
+        <div class="item"><img style="height:100%" src="static/images/zju-novelview/9.png" alt="image"></div>
+        <div class="item"><img style="height:100%" src="static/images/zju-novelview/10.png" alt="image"></div>
+        <div class="item"><img style="height:100%" src="static/images/zju-novelview/11.png" alt="image"></div>
+        <div class="item"><img style="height:100%" src="static/images/zju-novelview/12.png" alt="image"></div>
+        <div class="item"><img style="height:100%" src="static/images/zju-novelview/13.png" alt="image"></div>
+        <div class="item"><img style="height:100%" src="static/images/zju-novelview/14.png" alt="image"></div>
+        <div class="item"><img style="height:100%" src="static/images/zju-novelview/15.png" alt="image"></div>
+        <div class="item"><img style="height:100%" src="static/images/zju-novelview/16.png" alt="image"></div>
+        <div class="item"><img style="height:100%" src="static/images/zju-novelview/17.png" alt="image"></div>
+      </div>
+      <p><b>In row-major order:</b> NeuralBody, AnimatableNeRF, SANeRF, HumanNeRF, Ours, Ground truth.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- Demo -->
+<section class="hero is-light is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title has-text-centered">Novel Pose rendering</h2>
+      <p>Rendering from novel pose sequences selected from the AMASS dataset.</p>
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item">
+          <video poster="" id="388-stance" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/388-stance.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item">
+          <video poster="" id="394-aita" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/394-aita.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item">
+          <video poster="" id="393-hamata" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/393-hamata.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item">
+          <video poster="" id="386-liftbox" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/386-liftbox.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item">
+          <video poster="" id="377-stance" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/377-stance.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item">
+          <video poster="" id="393-walkdog" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/393-walkdog.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item">
+          <video poster="" id="394-liftbox" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/394-liftbox.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item">
+          <video poster="" id="377-walkdog" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/377-walkdog.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+      </div>
+      <p><b>In row-major order: Pose sequence, NeuralBody, AnimatableNeRF, SANeRF, HumanNeRF, Ours.</b></p>
+    </div>
+  </div>
+</section>
+
+
+
+
 <!-- Bibtex -->
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
-    <h2 class="title">BibTeX</h2>
+    <h2 class="title">Citation</h2>
     <pre><code>@article{jena2023splatarmor,
         title={SplatArmor: Articulated Gaussian splatting for animatable humans from monocular RGB videos},
         author={Jena, Rohit and Iyer, Ganesh Subramanian and Choudhary, Siddharth and Smith, Brandon and Chaudhari, Pratik and Gee, James},
@@ -204,6 +285,20 @@
   </div>
 </footer>
 
+<script>
+  bulmaCarousel.attach('#results-carousel', {
+      slidesToScroll: 1,
+      slidesToShow: 1,
+      infinite: true,
+      autoplay: false,
+  });
+  bulmaCarousel.attach('#novelview-carousel', {
+      slidesToScroll: 1,
+      slidesToShow: 1,
+      infinite: true,
+      autoplay: true,
+  });
+</script>
 
 </body>
 </html>
